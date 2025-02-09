@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png" sizes="16×16 32×32 48×48" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <title>Formulario Breaking Bad</title>
+</head>
+<body>
+    <div id="formulario-wrapper">
+        <h1>Breaking Bad – Que comience el juego!</h1>
+        <div class="form-box">
+            <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" name="formBreakingBad">    
+                <div class="linea">
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="input-text" name="nombre" id="nombre" placeholder="Indica tu nombre de pila" required>
+                    </div>
+                    <div>
+                        <label for="apellidos">Apellidos: </label>
+                        <input type="text" class="input-text" name="apellidos" id="apellidos" placeholder="Indica tu 1º y 2º apellido" required>
+                    </div>
+                </div>
+                <div class="linea">
+                    <div>
+                        <label>Calle:</label>
+                        <input type="text" class="input-text" name="calle" id="calle" placeholder="Calle">
+                    </div>
+                    <div>
+                        <label>Número:</label>
+                        <input type="text" class="input-text" name="numero" id="numero" placeholder="Número">
+                    </div>
+                    <div>
+                        <label>Piso:</label>
+                        <input type="text" class="input-text" name="piso" id="piso" placeholder="Piso">
+                    </div>
+                </div>
+                <div class="linea">
+                    <div>
+                        <label>Código Postal:</label>
+                        <input type="text" class="input-text" name="codigoPostal" id="codigoPostal" placeholder="Código Postal">
+                    </div>
+                    <div>
+                        <label>Ciudad:</label>
+                        <input type="text" class="input-text" name="ciudad" id="ciudad" placeholder="Ciudad">
+                    </div>
+
+                </div>
+                <div class="linea">
+                    <div>
+                        <label>DNI:</label>
+                        <input type="text" class="input-text" name="dni" id="dni" placeholder="Dni">
+                    </div>
+                    <div>
+                        <label>Email:</label>
+                        <input type="email" class="input-text" name="email" id="email" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="linea">
+                 
+                    <div>
+                        <label>Fecha de nacimiento</label>
+                        <input type="date" class="input-text"  name="fechaNac" id="fechaNac">
+                    </div>
+                </div>
+                <div class="linea-radio-button">
+                    <div class="total-width">
+                        <label>Sexo:</label>
+                        <div class="radio-wrapper">
+                            <div><input type="radio" name="sexo" value="hombre"><span>Hombre</span></div>
+                            <div><input type="radio" name="sexo" value="mujer"><span>Mujer</span></div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="linea">
+                    <div>
+                        <label>Subir archivos: </label><input type="file" name="archivo" id="archivo" accept=".pdf" multiple >
+                    </div>
+                   
+                </div>
+                <div class="linea">
+                    <div>
+                        <label>Personajes:</label>
+                        <select name="personajes" id="personajes"  class="select-text">
+                            <option value="Jessie Pinkman">Jessie Pinkman</option>
+                            <option value="Walter White">Walter White</option>
+                            <option value="Saul Goodman">Saul Goodman</option>
+                            <option value="Gustavo Fring">Gustavo Fring</option>
+                            <option value="Pollos Hermanos">Pollos Hermanos</option>
+                            <option value="otros">Otros personajes</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="linea-area">
+                    <label>Comentarios:</label>
+                    <textarea id="comentarios" name="comentarios" class="textarea"></textarea>
+                </div>
+            
+                <div class="linea">
+                    <input type="submit" value="enviar">
+                    <input type="reset" value="borrar">
+                   
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

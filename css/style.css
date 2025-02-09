@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'BreakingBad';
+    src: url('../fonts/Breaking\ Bad.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+   
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+#principal-wrapper {
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'BreakingBad', sans-serif;
+}
+#principal-wrapper .logo-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+#principal-wrapper .logo-wrapper .logo-img {
+    width: 200px;
+    height: 200px;
+}
+
+#principal-wrapper .text-title {
+    font-size: 40px;
+    color: white;
+}
+
+#principal-wrapper .img-frame img {
+    width: 700px;
+    height: 300px;
+    border-radius: 22px;
+    border: 10px outset brown;
+}
+
+#formulario-wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+#formulario-wrapper h1{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#formulario-wrapper .form-box{
+    
+    width: auto;
+    max-width: 800px;
+   
+    margin: 0 auto;
+}
+#formulario-wrapper .form-box .linea {
+    height: 60px;
+   
+}
+#formulario-wrapper .form-box .linea div {
+    float: left;
+    width: 49%;
+    margin: 0 1% 0 0;
+    overflow: hidden;
+    height: 60px;
+}
+#formulario-wrapper .form-box .linea div label {
+    display: block;
+    margin-bottom: 5px;
+}
+#formulario-wrapper .form-box .linea div input {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+#formulario-wrapper .form-box .linea-area .textarea {
+    display: inline-block;
+    width: 98%;
+    margin-right: 2%;
+    border-radius: 8px;
+    height: 49px;
+}
+#formulario-wrapper .form-box .linea div .input-text, #formulario-wrapper .form-box .linea div .select-text {
+    height: 28px;
+    border-radius: 8px;
+}
+#formulario-wrapper .form-box .linea div .select-text{
+    width:384px;
+}
+#formulario-wrapper .form-box .linea-radio-button .total-width .radio-wrapper{
+    height: 42px;
+}
+#formulario-wrapper .form-box .linea-radio-button .total-width .radio-wrapper div{
+    float: left;
+    width: 150px;
+}
+#formulario-wrapper .form-box .linea-radio-button .total-width .radio-wrapper div span{
+    display: inline-block;
+    margin-left: 10px;
+}
+#periodic-table-wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c3e11;
+    padding-bottom: 10px;
+  
+}
+#periodic-table-wrapper .logo-wrapper{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#periodic-table-wrapper .periodic-table {
+    empty-cells: hide;
+    border-spacing: 5px;
+}
+#periodic-table-wrapper .periodic-table td{
+    width: 70px!important;
+    padding: 0;
+}
+#periodic-table-wrapper .periodic-table .title{
+    font-size: 40px;
+    display: block;
+}
+#periodic-table-wrapper .periodic-table .subtitle{
+    font-size: 10px;
+    display: block;
+    height: 22px;
+}
+
+.margin-20-top{
+    margin-top: 20px;
+   
+}
